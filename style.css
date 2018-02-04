@@ -1,0 +1,203 @@
+body{
+ background-color: #F3F2E8;
+ background: url(images/back_pattern.png);
+ font: 1em Arial,sans-serif;
+}
+.group:after{
+ content: "";
+ display: table;
+ clear: both;
+}
+#footer, #wrapper{
+ margin: 0 auto;
+ width: 1000px;
+ /*border: 1px solid #000;*/
+}
+h1{
+ font-weight: bold;
+ font-size: 130%;
+ text-align: center;
+}
+
+#logo{
+ background: url(images/header3.jpg) no-repeat;
+ height: 90px;
+}
+#logo img{
+ height: 90px;
+}
+
+#content{
+ width: 720px;
+ float: right;
+ margin-left: 30px;
+ background-color: #fff;
+ padding: 15px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+}
+/* footer */
+html, body{
+height: 100%;
+}
+#wrapper{
+ min-height: 100%;
+}
+#hfooter{
+ height: 100px;
+}
+#footer{
+ margin-top: -90px;
+ height: 90px;
+ background: url(images/footer.png) no-repeat;
+ overflow: visible;
+ -webkit-background-size: cover;
+ background-size: cover;
+}
+
+#footer>p.copy{
+ padding-top: 60px;
+}
+
+#section{
+ margin-top: 10px;
+}
+/*TOP MENU START*/
+/* #top-menu ul li{
+ display: inline;
+} */
+#top-menu ul{
+ float: right;
+ width: 100%;
+ border-top: 1px solid #777;
+ border-bottom: 1px solid #777;
+ background: #88b563; /* Old browsers */
+ background: -moz-linear-gradient(top,  #88b563 0%, #7daf57 100%); /* FF3.6+ */
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#88b563), color-stop(100%,#7daf57)); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(top,  #88b563 0%,#7daf57 100%); /* Chrome10+,Safari5.1+ */
+ background: -o-linear-gradient(top,  #88b563 0%,#7daf57 100%); /* Opera 11.10+ */
+ background: -ms-linear-gradient(top,  #88b563 0%,#7daf57 100%); /* IE10+ */
+ background: linear-gradient(to bottom,  #88b563 0%,#7daf57 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88b563', endColorstr='#7daf57',GradientType=0 ); /* IE6-9 */
+}
+#top-menu ul li a{
+ float: right;
+ padding : 9px 10px;
+ text-decoration : none;
+ font: 1em Arial,sans-serif;
+ color: #fcfcfc;
+ border-left: 1px dotted #E1E1E1;
+ min-width: 100px;
+ text-align: center;
+ transition: background 0.5s ease-out 0.0s;
+}
+#top-menu ul li a:hover{
+ background: #6c9848; /* Old browsers */
+ 
+}
+/*TOP MENU END*/
+/*SIDE-MENU*/
+#side-menu{
+ padding: 10px;
+ background-color: #fff;
+ width: 200px;
+ float: left;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+}
+#side-menu ul li a{
+ font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Helvetica, Arial, sans-serif;
+ font-weight: bold;
+ font-size: 90%;
+ text-decoration: none;
+ color: rgb(55, 146, 179);
+ padding: 0.5em 0.5em 0.3em 0.3em;
+ display: block;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+ transition: background 0.5s ease-out 0.0s;
+}
+#side-menu ul li a:hover{
+ background-color: #e1f9cc;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+}
+
+/* HOME PAGE START*/
+/* slideshow start*/
+#slideshow img{
+margin-left: 10px;
+ width: 300px;
+ border: 10px solid #d7fcc4;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+}
+#slideshow{
+ margin-top: 10px;
+ font-size: 0;
+}
+/* slideshow end*/
+
+#greeting p{
+ line-height: 1.5;
+ text-indent: 2em;
+}
+/* HOME PAGE END */
+
+/* CONTACT PAGE START */
+
+#content address{
+ width: 320px;
+ float: left;
+}
+/* CONTACT PAGE END */
+
+/* CATALOG OVERVIEW START */
+.overview h4{
+ font-style: italic;
+ font-weight: bold;
+ font-family: Georgia, serif;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ padding: 5px;
+ color: #ccc;
+ background: #333;
+ background: rgba(0,0,0,.7);
+ width: 322px;
+}
+.overview img{
+ display: block;
+ width: 100%;
+}
+
+.overview{
+ width: 332px;
+ position: relative;
+ float: left;
+ margin-top: 15px;
+ border: 10px solid #D7FCC4;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+ -webkit-box-shadow: 4px 4px 4px 0px rgba(204,204,204,1);
+ -moz-box-shadow: 4px 4px 4px 0px rgba(204,204,204,1);
+ box-shadow: 4px 4px 4px 0px rgba(204,204,204,1);
+
+}
+
+.overview:nth-child(2n+1){
+	margin-right: 16px;
+}
+
+
+/* .overview .description_ov{
+ width: 397px;
+ float: left;
+} */
+/* CATALOG OVERVIEW START END */
